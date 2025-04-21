@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,10 +13,16 @@
       color: #333;
     }
     header {
-      background-color: #2e8b57;
+      background-color: #111;
       color: white;
-      padding: 1rem 2rem;
+      padding: 2rem 1rem;
       text-align: center;
+    }
+    header img {
+      max-width: 150px;
+      height: auto;
+      display: block;
+      margin: 0 auto 1rem;
     }
     nav {
       background-color: #3cb371;
@@ -33,11 +38,13 @@
     }
     .container {
       padding: 2rem;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
     }
     h2 {
       color: #2e8b57;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.25rem;
     }
     .card {
       background: white;
@@ -57,13 +64,15 @@
 </head>
 <body>
   <header>
+    <img src="logo.jpg" alt="Gym Logo" />
     <h1>Nutrition Essentials</h1>
-    <p>Your guide to healthy eating</p>
+    <p>Your guide to fitness-focused eating</p>
   </header>
 
   <nav>
     <a href="#macros">Macronutrients</a>
     <a href="#micros">Micronutrients</a>
+    <a href="#glycogen">Glycogen</a>
     <a href="#tips">Tips</a>
   </nav>
 
@@ -72,27 +81,50 @@
       <h2>Macronutrients</h2>
       <div class="card">
         <h3>Carbohydrates</h3>
-        <p>Provide energy for your body. Found in fruits, vegetables, grains, and legumes.</p>
+        <p>Carbs provide 4 calories per gram. They’re your body's primary source of energy, especially during workouts. Found in fruit, rice, oats, pasta, and bread.</p>
       </div>
       <div class="card">
         <h3>Proteins</h3>
-        <p>Essential for muscle repair and growth. Sources include meat, fish, eggs, dairy, and legumes.</p>
+        <p>Proteins contain 4 calories per gram. They’re crucial for muscle repair, recovery, and growth. Key sources: chicken, beef, fish, eggs, dairy, legumes.</p>
       </div>
       <div class="card">
         <h3>Fats</h3>
-        <p>Support cell growth and hormone production. Found in oils, nuts, seeds, and fish.</p>
+        <p>Fats deliver 9 calories per gram. They help with hormone production, nutrient absorption, and long-term energy. Healthy sources: olive oil, nuts, seeds, avocado, oily fish.</p>
       </div>
     </section>
 
     <section id="micros">
-      <h2>Micronutrients</h2>
+      <h2>Vitamins & Minerals</h2>
       <div class="card">
-        <h3>Vitamins</h3>
-        <p>Support immune function, bone health, and energy production. Get them from fruits and vegetables.</p>
+        <h3>Vitamin A</h3>
+        <p>Supports vision, skin health, and immune function. Found in carrots, sweet potatoes, and spinach.</p>
       </div>
       <div class="card">
-        <h3>Minerals</h3>
-        <p>Help with hydration, muscle function, and more. Common sources include dairy, meat, and leafy greens.</p>
+        <h3>Vitamin C</h3>
+        <p>Boosts the immune system and helps with iron absorption. Found in citrus fruits, peppers, and broccoli.</p>
+      </div>
+      <div class="card">
+        <h3>Vitamin D</h3>
+        <p>Important for bone health and testosterone support. Found in fatty fish, egg yolks, and sunlight.</p>
+      </div>
+      <div class="card">
+        <h3>Iron</h3>
+        <p>Vital for oxygen transport and energy. Found in red meat, lentils, and leafy greens.</p>
+      </div>
+      <div class="card">
+        <h3>Magnesium</h3>
+        <p>Supports muscle recovery and sleep. Found in nuts, whole grains, and dark chocolate.</p>
+      </div>
+      <div class="card">
+        <h3>Zinc</h3>
+        <p>Boosts immunity and testosterone. Found in meat, shellfish, and seeds.</p>
+      </div>
+    </section>
+
+    <section id="glycogen">
+      <h2>Glycogen</h2>
+      <div class="card">
+        <p>Glycogen is the stored form of carbohydrates in your muscles and liver. During training, especially weightlifting and high-intensity workouts, your body taps into glycogen for fast energy. Replenishing glycogen post-workout with carbs helps muscle recovery and performance.</p>
       </div>
     </section>
 
@@ -100,18 +132,18 @@
       <h2>Healthy Eating Tips</h2>
       <div class="card">
         <ul>
-          <li>Eat a variety of colorful foods.</li>
-          <li>Stay hydrated.</li>
-          <li>Limit processed foods and added sugars.</li>
-          <li>Watch portion sizes.</li>
-          <li>Listen to your body’s hunger cues.</li>
+          <li>Prioritize whole foods over processed ones</li>
+          <li>Stay consistent with meals and hydration</li>
+          <li>Fuel around training: carbs before, protein after</li>
+          <li>Balance your plate: protein, carbs, fat, and color</li>
+          <li>Don’t fear fats — healthy ones are essential</li>
         </ul>
       </div>
     </section>
   </div>
 
   <footer>
-    &copy; 2025 Nutrition Essentials | Made with ChatGPT
+    &copy; 2025 Fitness | ESTD 2000 | All Rights Reserved
   </footer>
 </body>
 </html>
